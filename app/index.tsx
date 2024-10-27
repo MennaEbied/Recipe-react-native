@@ -1,4 +1,7 @@
+import { useRouter } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View  } from 'react-native';
+import { LogoButton } from '../components/logoButton';
 import { LogoImage } from '../components/logoImage';
 import { theme } from '../theme';
 
@@ -6,11 +9,17 @@ import { theme } from '../theme';
 
 
 export default function App() {
+
+  const router = useRouter();
+  const handlePress= ()=>{router.push("/categories")};
+
   return (
     <View style={styles.container}>
-     <LogoImage/>
-     <Text style={styles.text}>Foody</Text>
-     <Text style={{fontSize:30,color:theme.colorWhite}}>Food is always right</Text>
+        <StatusBar style="light"/>
+        <Text style={styles.heading}>Welcome</Text>
+        <Text style={styles.tagline}>Let's cook delecious and healthy meals!</Text>
+        <LogoImage/>
+        <LogoButton title='Start Cooking' onPress={handlePress}/>
     </View>
   );
 }
@@ -18,20 +27,23 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent:"center",
+    justifyContent:"space-evenly",
     alignItems:"center",
     backgroundColor:theme.colorOrange,
+  
   },
-  text:{
-    fontSize:35,
+  heading:{
+    fontSize:42,
     fontWeight:"bold",
     textAlign:"center",
-    justifyContent:"center",
-    alignItems:"center",
     color:theme.colorWhite,
+    marginTop:42,
 
   },
-  backGround:{
-    flex:1,
+  tagline:{
+    fontSize:24,
+    color:theme.colorWhite,
+    paddingHorizontal:20,
+
   }
 });
