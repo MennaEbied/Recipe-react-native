@@ -31,11 +31,10 @@ export function LogoButton({ title, onPress }: Props) {
 
 const styles = StyleSheet.create({
   text: {
-    color: "white",
     fontSize: 22,
     fontWeight: "bold",
     textAlign:"center",
-    marginTop:6,
+    color:theme.colorBright,
   },
   button: {
     paddingHorizontal: 18,
@@ -44,9 +43,11 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colorYellow,
     width:250,
     height:60,
+    justifyContent:"center",
+    alignItems:"center"
    
   },
   buttonPressed:{
-    backgroundColor:theme.colorBrighter,
+    backgroundColor:theme.colorBrightYellow,
   }
 });
