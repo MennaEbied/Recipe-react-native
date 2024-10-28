@@ -21,8 +21,7 @@ A React Native recipe application built with Expo, allowing users to explore mea
   ![image](https://github.com/user-attachments/assets/27e309d9-a3f0-4e0c-96d3-2e42d7f71ba3)
 
   #### Recipe Details Screen
-  ![image](https://github.com/user-attachments/assets/45f926a9-c6d4-470e-8898-546fecfd19f9)
-
+  ![image](https://github.com/user-attachments/assets/5dbc4d51-3adb-46f4-bd13-6b313f5b360a)
 
 
 
