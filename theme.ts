@@ -1,7 +1,9 @@
 export const theme={
     colorWhite:"#fff",
     colorBlack:"#000",
-    colorOrange:"#ff724c",
     colorYellow:"#fdbf50",
-    colorBrighter:"#fdea50"
+    colorBrightYellow:"#fdea50",
+    colorBright:"#f4f4f8",
+    colorOrange:"#e68035",
+    colorGreen:"#bbc07d"
 }
