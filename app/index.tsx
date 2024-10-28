@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-        <StatusBar style="light"/>
+       <StatusBar style="light"  />
         <Text style={styles.heading}>Welcome</Text>
         <Text style={styles.tagline}>Let's cook delecious and healthy meals!</Text>
         <LogoImage/>
@@ -36,14 +36,14 @@ const styles = StyleSheet.create({
     fontSize:42,
     fontWeight:"bold",
     textAlign:"center",
-    color:theme.colorWhite,
+    color:theme.colorBright,
     marginTop:42,
 
   },
   tagline:{
-    fontSize:24,
-    color:theme.colorWhite,
-    paddingHorizontal:20,
+    fontSize:30,
+    color:theme.colorBright,
+    textAlign:"center"
 
   }
 });
