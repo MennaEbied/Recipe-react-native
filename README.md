@@ -14,6 +14,18 @@ A React Native recipe application built with Expo, allowing users to explore mea
   #### Splash Screen
   ![image](https://github.com/user-attachments/assets/344cd001-1a6f-4b74-a26c-39f1c210d177)
 
+  #### Categories Screen
+  ![image](https://github.com/user-attachments/assets/a3c527b7-788a-4654-a3c8-508c2faaa76a)
+
+  #### Recipes Screen
+  ![image](https://github.com/user-attachments/assets/27e309d9-a3f0-4e0c-96d3-2e42d7f71ba3)
+
+  #### Recipe Details Screen
+  ![image](https://github.com/user-attachments/assets/45f926a9-c6d4-470e-8898-546fecfd19f9)
+
+
+
+
 
    Clone the repository:
    ```bash
